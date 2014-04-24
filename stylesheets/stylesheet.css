@@ -152,7 +152,6 @@ a.text-link {
 input, textarea {
   font-size: 1.1em;
   font-family: 'Karla', arial, sans-serif;
-  border-radius: 5px;
 }
  
 section .row {
@@ -164,9 +163,8 @@ section .row:first-of-type {
 }
  
 .messages-box {
-  border-radius:0 0 5px 5px;
   border: 1px solid lightgray;
-  max-height: 300px;
+  max-height: 236px;
   overflow-y: auto;
 }
 .messages-box .message-row {
@@ -188,7 +186,6 @@ section .row:first-of-type {
  
 textarea.send-message {
   border: 1px solid lightgray;
-  border-radius: 5px;
   -webkit-appearance: none;
   appearance: none;
   width:100%;
@@ -200,7 +197,6 @@ textarea.send-message {
 .messages-box-header {
   margin-top:1em;
   background: lightgray;
-  border-radius: 5px 5px 0 0;
   padding: 0.5em;
 }
 .messages-box-header span.username {
