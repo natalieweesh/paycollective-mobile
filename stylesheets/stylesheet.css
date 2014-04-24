@@ -381,3 +381,44 @@ span.green {
   transform: rotate(-35deg);
   margin-top: 11px;
 }
+
+
+
+/* calendar */
+.calendar {
+  width: 100%;
+  position: relative;
+}
+.calendar td {
+  border-top: 1px solid lightgray;
+  height: 2em;
+}
+.calendar td.highlighted {
+  background: #e1c701; /*light green*/
+}.calendar td {
+  width: 33%;
+  border-left: 1px solid lightgray;
+  text-align:center;
+}
+.calendar tr > td:first-of-type {
+  border-left:none;
+}
+.calendar tr td .time {
+  //visibility: hidden;
+}
+.calendar tr td:first-of-type .time {
+  //visibility: visible;
+}
+.calendar .time {
+  font-size: 0.8em;
+}
+.calendar-header {
+  width: 100%;
+}
+.days-row th {
+  width: 33%;
+  border-left: 1px solid #fff;
+}
+.days-row th:first-of-type {
+  border-left: none;
+}
