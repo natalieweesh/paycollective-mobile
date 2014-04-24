@@ -14,3 +14,7 @@ $('.swipebox').swipebox({
 $('.hamburger').on('click', function(){
     $('.header-menu').toggleClass('expanded');
 });
+
+$('#add-another-photo').on('click', function(){
+  $(this).before('<input type="file">');
+});
