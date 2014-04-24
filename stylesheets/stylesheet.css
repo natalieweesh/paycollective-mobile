@@ -353,7 +353,7 @@ span.green {
   display: block;
   line-height: 2em;
 }
-.header-menu a:first-of-type {
+.header-menu ul li:first-of-type a {
   border-top: 0;
 }
 .line {
