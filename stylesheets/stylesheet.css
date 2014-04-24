@@ -426,3 +426,8 @@ span.green {
 .ui-loader {
   display: none;
 }
+
+#add-another-photo {
+  margin-top: 1em;
+  display: block;
+}
