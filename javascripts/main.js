@@ -26,3 +26,7 @@ $( ".calendar" ).on( "swipeleft", function(){
 $( ".calendar" ).on( "swiperight", function(){
     alert('change to following days');
 });
+
+$('.calendar td').on('click', function(){
+    $(this).toggleClass('highlighted');
+});
