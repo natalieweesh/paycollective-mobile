@@ -422,3 +422,7 @@ span.green {
 .days-row th:first-of-type {
   border-left: none;
 }
+
+.ui-loader {
+  display: none;
+}
