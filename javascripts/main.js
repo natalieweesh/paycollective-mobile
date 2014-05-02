@@ -18,3 +18,15 @@ $('.hamburger').on('click', function(){
 $('#add-another-photo').on('click', function(){
   $(this).before('<input type="file">');
 });
+
+$( ".calendar" ).on( "swipeleft", function(){
+    alert('change to previous days');
+});
+
+$( ".calendar" ).on( "swiperight", function(){
+    alert('change to following days');
+});
+
+$('.calendar td').on('click', function(){
+    $(this).toggleClass('highlighted');
+});

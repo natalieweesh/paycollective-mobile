@@ -349,14 +349,21 @@ span.green {
 }
 .header-menu ul {
   list-style-type: none;
-  margin: 0.5em 0;
-  padding: 0 5%;
+  margin: 0;
+  padding: 0;
+  background: lightgray;
 }
 .header-menu a {
   font-weight: bold;
   color: #000;
   text-decoration: none;
-  
+  border-top: 1px solid #efefef;
+  padding: 0 5%;
+  display: block;
+  line-height: 2em;
+}
+.header-menu ul li:first-of-type a {
+  border-top: 0;
 }
 .line {
   width: 100%;
