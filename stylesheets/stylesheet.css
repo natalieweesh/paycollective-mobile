@@ -167,6 +167,10 @@ section .row:first-of-type {
 .row .green {
   color: #e1c701; /* light green */
 }
+.row .details {
+  font-size: 14px;
+  margin: 0;
+}
  
 .messages-box {
   border: 1px solid lightgray;
