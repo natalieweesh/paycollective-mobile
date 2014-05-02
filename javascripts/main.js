@@ -30,3 +30,7 @@ $( ".calendar" ).on( "swiperight", function(){
 $('.calendar td').on('click', function(){
     $(this).toggleClass('highlighted');
 });
+
+$('.toggle-images').on('click', function(){
+  $('.images').toggleClass('view-all');
+});
