@@ -109,6 +109,7 @@ header {
 }
 .accordion.expanded + section.all-items {
   max-height: 300px;
+  overflow: auto;
 }
  
 .pop-up {
