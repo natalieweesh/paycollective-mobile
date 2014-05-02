@@ -231,6 +231,15 @@ span.green {
 .item-listing-page .accordion {
   margin-top: 0.5em;
 }
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  width: 112px;
+  height: 24px;
+  z-index: 10;
+}
 .star-rating {
   list-style:none;
   margin:0px;
