@@ -220,6 +220,15 @@ textarea.send-message {
   max-height: 500px;
   height: auto;
 }
+.toggle-images {
+  width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  margin: 1em 0 2em;
+}
 
 .item-name {
   color: #000;
