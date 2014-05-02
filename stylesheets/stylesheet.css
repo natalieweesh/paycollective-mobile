@@ -107,6 +107,9 @@ header {
   float: left;
   margin-right: 5px;
 }
+.accordion.expanded + section.all-items {
+  max-height: 300px;
+}
  
 .pop-up {
   position: fixed;
