@@ -211,6 +211,15 @@ textarea.send-message {
   width: auto;
 
 }
+.images {
+  max-height: 98px;
+  overflow: hidden;
+  -webkit-transition: max-height 1s; transition: max-height 1s;
+}
+.images.view-all {
+  max-height: 500px;
+  height: auto;
+}
 
 .item-name {
   color: #000;
