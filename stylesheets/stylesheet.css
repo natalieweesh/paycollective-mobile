@@ -175,6 +175,16 @@ section .row:first-of-type {
   font-size: 14px;
   margin: 0;
 }
+.row .image-wrapper {
+  float: right;
+  width: 98px;
+  height: 98px;
+  overflow: hidden;
+}
+.row .image-wrapper img {
+  height: 100%;
+  width: auto;
+}
  
 .messages-box {
   border: 1px solid lightgray;
