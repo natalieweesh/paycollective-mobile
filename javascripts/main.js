@@ -12,6 +12,7 @@ $('.swipebox').swipebox({
 });
 
 $('.hamburger').on('click', function(){
+    alert('hamburger clicked!');
     $('.header-menu').toggleClass('expanded');
 });
 
