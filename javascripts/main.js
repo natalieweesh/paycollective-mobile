@@ -39,6 +39,4 @@ $('.toggle-images').on('click', function(){
   $('.images').toggleClass('view-all');
 });
 
-alert('in main.js');
-
 });
