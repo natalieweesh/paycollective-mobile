@@ -16,7 +16,6 @@ if ($('.swipebox').length != 0) {
 }
 
 $('.hamburger').on('click', function(){
-    alert('hamburger clicked!');
     $('.header-menu').toggleClass('expanded');
 });
 
