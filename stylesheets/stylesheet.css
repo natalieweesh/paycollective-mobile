@@ -492,3 +492,17 @@ span.green {
   margin-top: 1em;
   display: block;
 }
+
+/* checkboxes */
+
+.chk-area {
+  border: 0;
+  float: left;
+  height: 21px;
+  margin: 0 15px 0 1px;
+  width: 21px;
+  background:url(../images/checkbox-02.png) no-repeat;
+}
+.chk-checked {
+  background-position: 0 -24px;
+}
