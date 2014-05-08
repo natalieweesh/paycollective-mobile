@@ -498,7 +498,12 @@ span.green {
 
 .checkbox label:before{
   background: url(../images/checkbox-02.png) no-repeat 0 0;
-  
+  content: '';
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 .checkbox input[type=checkbox] {
   display: none;
