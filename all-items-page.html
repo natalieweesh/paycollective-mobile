@@ -226,10 +226,12 @@ $('.toggle-pop-up').on('click', function(){
     $('body').toggleClass('show-pop-up');
 });
 
+if ($('.swipebox')) {
 $('.swipebox').swipebox({
     beforeOpen: function() {$('.content').css('position', 'fixed');}, // called before opening
     afterClose: function() {$('.content').css('position', 'static');} // called after closing
 });
+}
 
 $('.hamburger').on('click', function(){
     alert('hamburger clicked!');
