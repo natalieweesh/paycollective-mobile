@@ -495,14 +495,14 @@ span.green {
 
 /* checkboxes */
 
-.chk-area {
-  border: 0;
-  float: left;
-  height: 21px;
-  margin: 0 15px 0 1px;
-  width: 21px;
-  background:url(../images/checkbox-02.png) no-repeat;
+
+.checkbox label:before{
+  background: url(../images/checkbox-02.png) no-repeat 0 0;
+  
 }
-.chk-checked {
+.checkbox input[type=checkbox] {
+  display: none;
+}
+.checkbox input[type=checkbox]:checked + label {
   background-position: 0 -24px;
 }
