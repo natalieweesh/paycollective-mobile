@@ -505,9 +505,9 @@ span.green {
   margin-right: 5px;
   vertical-align: middle;
 }
-.checkbox input[type=checkbox] {
+.checkbox input[type="checkbox"] {
   display: none;
 }
-.checkbox input[type=checkbox]:checked + label:before {
+.checkbox input[type="checkbox"]:checked + label:before {
   background-position: 0 -24px;
 }
