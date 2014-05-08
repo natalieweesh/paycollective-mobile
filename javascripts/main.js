@@ -1,3 +1,5 @@
+$(document).ready(function(){
+    
 $('.accordion').on('click', function(){
     $(this).toggleClass('expanded');
 });
@@ -37,3 +39,5 @@ $('.toggle-images').on('click', function(){
 });
 
 alert('in main.js');
+
+});
