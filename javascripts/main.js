@@ -15,7 +15,7 @@ if ($('.swipebox').length != 0) {
     });
 }
 
-$('.btn.mini').on('click', function()}{
+$('.btn.mini').on('click', function(){
     var messagingBoxTop = $('textarea.send-message').offset().top;
     $('body').animate({'scrollTop': messagingBoxTop});
 });
