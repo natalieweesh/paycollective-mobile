@@ -454,6 +454,9 @@ span.green {
   border-top: 1px solid lightgray;
   height: 2em;
 }
+.calendar td.disabled {
+  background: #efefef;
+}
 .calendar td.highlighted {
   background: #e1c701; /*light green*/
 }.calendar td {

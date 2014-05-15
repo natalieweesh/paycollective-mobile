@@ -32,7 +32,9 @@ $( ".calendar" ).on( "swiperight", function(){
 });
 
 $('.calendar td').on('click', function(){
-    $(this).toggleClass('highlighted');
+    if (!$(this).hasClass('disabled')) {
+        $(this).toggleClass('highlighted');
+    }
 });
 
 $('.toggle-images').on('click', function(){
