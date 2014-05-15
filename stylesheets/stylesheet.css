@@ -218,6 +218,9 @@ section .row:first-of-type {
   right: 3%;
   z-index: 1;
 } 
+.btn.mini:hover {
+  cursor: pointer;
+}
 textarea.send-message {
   border: 1px solid lightgray;
   border-radius: 0;
