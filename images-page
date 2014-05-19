@@ -30,7 +30,24 @@
     </div>
 
     <div class="content clearfix item-listing-page">
-      <p><b>UPLOAD IMAGES</b></p>
+      <p><b>EDIT IMAGES</b></p>
+      
+      <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+        <div class="slides"></div>
+        <h3 class="title">Title</h3>
+        <a class="prev"><</a>
+        <a class="next">></a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+      </div>
+      <div id="links">
+        <a href="http://placekitten.com/300/200">
+          <img src="http://placekitten.com/300/200">
+        </a>
+        <a href="http://placekitten.com/g/300/200">
+          <img src="http://placekitten.com/g/300/200">
+        </a>
+      </div>
       <input type="file">
 
       <a class="text-link" id="add-another-photo">Add another photo</a>
@@ -49,5 +66,16 @@
 
     
     <script src="javascripts/main.js" type="text/javascript"></script>
+    <script src="blueimp-gallery.min.js" type="text/javascript"></script>
+    
+    <script>
+      blueimp.Gallery(
+          document.getElementById('links').getElementsByTagName('a'),
+          {
+              container: '#blueimp-gallery-carousel',
+              carousel: true
+          }
+      );
+    </script>
   </body>
 </html>
