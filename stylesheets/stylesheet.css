@@ -535,3 +535,15 @@ span.green {
   display: none;
   
 }
+.btn.one-third {
+  font-size: 10px;
+  width: 30%;
+  background: gray;
+  color: #fff;
+  padding: 8px 5px;
+  margin: 10px 1.5%;
+  
+} 
+.btn.one-third:hover {
+  cursor: pointer;
+}
