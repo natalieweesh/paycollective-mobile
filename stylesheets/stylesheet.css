@@ -540,9 +540,10 @@ span.green {
   width: 30%;
   background: gray;
   color: #fff;
-  padding: 8px 5px;
+  padding: 1em;
   margin: 10px 0 10px 3%;
   float: left;
+  box-sizing: border-box;
 } 
 .btn.one-third:first-child {
   margin-left: 0;
