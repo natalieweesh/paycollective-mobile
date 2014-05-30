@@ -544,7 +544,7 @@ span.green {
   margin: 10px 0 10px 3%;
   float: left;
 } 
-.btn.one-third:first {
+.btn.one-third:first-child {
   margin-left: 0;
 }
 .btn.one-third:hover {
