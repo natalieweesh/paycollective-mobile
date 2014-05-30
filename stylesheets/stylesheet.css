@@ -541,9 +541,12 @@ span.green {
   background: gray;
   color: #fff;
   padding: 8px 5px;
-  margin: 10px 1.5%;
-  
+  margin: 10px 0 10px 3%;
+  float: left;
 } 
+.btn.one-third:first {
+  margin-left: 0;
+}
 .btn.one-third:hover {
   cursor: pointer;
 }
